@@ -3,7 +3,7 @@ var canvas = new fabric.Canvas('myCanvas');
 
 function new_image()
 {
-	fabric.new_image.fromURL("50-Best-Happy-Birthday-Quotes-and-Wishes.jpg", function(){
+    fabric.Image.fromURL('BirthdayImage.jpg', function(Img) {
         block_image_object = Img;
 
         block_image_object.scaleToWidth(700);
